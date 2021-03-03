@@ -1,0 +1,38 @@
+{
+    "name": "wangqs/laravel-filesystem-obs",
+    "description": "huawei cloud obs filesystem storage for laravel 5+",
+    "keywords": [
+        "huawei",
+        "obs",
+        "laravel",
+        "filesystems",
+        "storage"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wangqs\Obs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wangqs\Obs\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wangqs\Obs\\ObsServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
