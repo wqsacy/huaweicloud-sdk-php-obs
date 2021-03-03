@@ -14,18 +14,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Wangqs\Obs\\": "src/"
+            "Wangqs\\Obs\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Wangqs\Obs\\Test\\": "tests/"
+            "Wangqs\\Obs\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Wangqs\Obs\\ObsServiceProvider"
+                "Wangqs\\Obs\\ObsServiceProvider"
             ]
         }
     },
