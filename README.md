@@ -36,8 +36,8 @@ $ composer require "wangqs/laravel-filesystem-obs" -vvv
             'key' => env('OBS_ACCESS_ID'), // <AccessKeyId>
             'secret' => env('OBS_ACCESS_KEY'), // <OBS AccessKeySecret>
             'bucket' => env('OBS_BUCKET'), // <OBS bucket name>
-            'endpoint' => env('OBS_ENDPOINT'), // <the endpoint of OBS, E.g: (https:// or http://).obs.cn-east-2.myhuaweicloud.com | custom domain, E.g:img.abc.com> OBS �����ڵ���Զ����ⲿ����
-            'cdn_domain' => env('OBS_CDN_DOMAIN'), //<CDN domain, cdn����> ���isCNameΪtrue, getUrl���ж�cdnDomain�Ƿ��趨���������ص�url�����cdnDomainδ���ã���ʹ��endpoint������url������ʹ��cdn
+            'endpoint' => env('OBS_ENDPOINT'), // <the endpoint of OBS, E.g: (https:// or http://).obs.cn-east-2.myhuaweicloud.com | custom domain, E.g:img.abc.com> 
+            'cdn_domain' => env('OBS_CDN_DOMAIN'), //<CDN domain>
             'ssl_verify' => env('OBS_SSL_VERIFY'), // <true|false> true to use 'https://' and false to use 'http://'. default is false,
             'debug' => env('APP_DEBUG'), // <true|false>
         ],
