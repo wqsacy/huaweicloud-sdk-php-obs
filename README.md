@@ -1,6 +1,6 @@
 # Huawei Cloud OBS for Laravel
 
-[Huawei Cloud OBS](https://support.huaweicloud.com/devg-obs_php_sdk_doc_zh/zh-cn_topic_0132036136.html) storage for Laravel based on [wangqs/laravel-filesystem-obs](https://github.com/wangqs/laravel-filesystem-obs).
+[Huawei Cloud OBS](https://support.huaweicloud.com/devg-obs_php_sdk_doc_zh/zh-cn_topic_0132036136.html) storage for Laravel based on [wangqs/laravel-filesystem-obs](https://github.com/wqsacy/laravel-filesystem-obs).
 
 
 # Requirement
