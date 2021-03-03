@@ -8,9 +8,7 @@
         "esdk-obs-php"
     ],
     "license": "MIT",
-
     "minimum-stability": "dev",
-    
     "require": {
         "php": "^7.2",
         "ext-json": "*",
