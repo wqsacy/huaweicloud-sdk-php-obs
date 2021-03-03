@@ -1,6 +1,6 @@
 <?php namespace Wangqs\HuaweiOBS;
 
-use ObsV3\ObsClient;
+use Wangqs\ObsV3\ObsClient;
 
 class Factory
 {
@@ -34,7 +34,7 @@ class Factory
      *
      * @param array $config
      *
-     * @return \ObsV3\ObsClient
+     * @return \Wangqs\ObsV3\ObsClient
      */
     public function make(array $config): ObsClient
     {
@@ -46,7 +46,7 @@ class Factory
      *
      * @param array $config
      *
-     * @return \ObsV3\ObsClient
+     * @return \Wangqs\ObsV3\ObsClient
      */
     protected function buildClient(array $config): ObsClient
     {

@@ -7,7 +7,7 @@ use Illuminate\Container\Container;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\Facades\Storage;
 use Laravel\Lumen\Application as LumenApplication;
-use ObsV3\ObsClient;
+use Wangqs\ObsV3\ObsClient;
 use League\Flysystem\Filesystem;
 class HWOBSServiceProvider extends ServiceProvider
 {

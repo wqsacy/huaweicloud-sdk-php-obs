@@ -7,8 +7,8 @@ use League\Flysystem\Adapter\AbstractAdapter;
 use League\Flysystem\Adapter\Polyfill\NotSupportingVisibilityTrait;
 use League\Flysystem\Config;
 use League\Flysystem\Util\MimeType;
-use ObsV3\ObsClient as Client;
-use ObsV3\ObsException;
+use Wangqs\ObsV3\ObsClient as Client;
+use Wangqs\ObsV3\ObsException;
 
 class HwobsAdapter extends AbstractAdapter
 {

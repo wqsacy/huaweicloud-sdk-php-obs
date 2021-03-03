@@ -1,6 +1,6 @@
 <?php namespace Wangqs\HuaweiOBS\Traits;
 
-use ObsV3\ObsClient;
+use Wangqs\ObsV3\ObsClient;
 
 trait Download {
     /**
